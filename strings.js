@@ -110,3 +110,4 @@ let sum = int.reduce(function (a,b){
 return sum;
 }
 console.log(numbers())
+/* repaso */
