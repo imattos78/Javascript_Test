@@ -55,3 +55,40 @@ for (let e = 1; e <= 7; e++){
 }
 
 /* Iterate the array, ['HTML', 'CSS', 'JavaScript'] using a for loop and print out the items. */
+let array = ['HTML', 'CSS', 'JavaScript'];
+for (let b = 0; b < array.length; b++){
+    console.log(array[b]);
+}
+
+/* Use for loop to iterate from 0 to 100 and print only even numbers */
+for (let d = 0; d <= 100; d++){
+    if (d % 2 === 0){
+        console.log(d);
+    }
+}
+
+/* Use for loop to iterate from 0 to 100 and print only odd numbers */
+for (let d = 0; d <= 100; d++){
+    if (d % 2 !== 0){
+        console.log(d);
+    }
+}
+
+/* Use for loop to iterate from 0 to 100 and print and print the sum of all numbers.*/
+let sum = 0;
+for (let f = 0; f <= 100; f++){
+    sum = sum + f   
+}
+console.log(`The sum all numbers is ${sum}`);
+
+/* Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. */
+let sumOdds = 0;
+let sumEven = 0;
+for (let g = 0; g <= 100; g++){
+    if (g % 2 == 0){
+        sumEven += g; 
+    }else if ( g % 2 !== 0){
+        sumOdds += g;
+    }
+}
+console.log(`The sum of all even number is: ${sumEven} and the sum of all odds number is: ${sumOdds}`);
